@@ -14,6 +14,7 @@ li {
   list-style: none;
 }
 /* 모달창 */
+<<<<<<< HEAD
 #modal{
   display: none;
   position: fixed;
@@ -45,6 +46,10 @@ li {
 /* 전체 영역 */
 .wrap {
 
+=======
+/* 전체 영역 */
+.wrap {
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   width: 1200px;
   height: 700px;
   background-color: antiquewhite;
@@ -60,6 +65,10 @@ li {
 /* 로고 */
 .logo {
   width: 200px;
+<<<<<<< HEAD
+=======
+  height: 100%;
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   line-height: 100px;
   text-align: center;
   background-color: bisque;
@@ -104,9 +113,15 @@ li {
 /* .gnb:hover .depth2{
     display: block;
 } */
+<<<<<<< HEAD
 /* .gnb > li:hover .depth2 {
   display: block;
 } */
+=======
+.gnb > li:hover .depth2 {
+  display: block;
+}
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
 /* 서브메뉴 */
 .depth2 {
   background-color: aquamarine;
@@ -189,16 +204,24 @@ li {
   text-align: center;
   background-color: rgb(247, 198, 198);
 }
+<<<<<<< HEAD
 .c1 h4.on {
   background-color: chartreuse;
 }
 .c1 ul {
+=======
+.c1 h4.on{
+  background-color: chartreuse;
+}
+.c1 ul{
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   position: absolute;
   display: none;
   top: 40px;
   left: 10px;
   padding: 10px;
   /* background-color: bisque; */
+<<<<<<< HEAD
 }
 .c1 ul.on {
   display: block;
@@ -208,6 +231,18 @@ li {
   background-color: antiquewhite;
 }
 .notice li a {
+=======
+
+}
+.c1 ul.on{
+  display: block;
+}
+/* 공지사항 */
+.notice li:nth-child(even){
+  background-color: antiquewhite;
+}
+.notice li a{
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   display: flex;
   padding: 5px;
   gap: 30px;
@@ -216,6 +251,7 @@ li {
   border-bottom: 1px solid #ccc;
 }
 /* 갤러리 */
+<<<<<<< HEAD
 .gal{
   padding: 10px 0;
 }
@@ -226,19 +262,36 @@ li {
 }
 /* 배너 */
 .c2 {
+=======
+.gal {
+ width:calc(100% - 20px);
+
+display: flex;
+justify-content: space-between;
+background-color: aquamarine;
+}
+/* 배너 */
+.c2 {
+
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   width: calc(100% / 3);
   height: 200px;
   background-color: rgb(255, 189, 127);
   overflow: hidden;
 }
+<<<<<<< HEAD
 .c2 a,
 .c3 a {
+=======
+.c2 a, .c3 a{
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   position: relative;
   width: 100%;
   height: 100%;
 
   overflow: hidden;
 }
+<<<<<<< HEAD
 .c2 a img,
 .c3 a img {
   width: 100%;
@@ -249,6 +302,16 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+=======
+.c2 a img, .c3 a img{
+  width: 100%;
+}
+.c2 span, .c3 span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   padding: 10px 40px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -269,26 +332,45 @@ li {
   background-color: rgb(248, 163, 176);
 }
 /* ft-lo */
+<<<<<<< HEAD
 .ft-logo {
+=======
+.ft-logo{
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   width: 200px;
   height: 100%;
   padding: 10px;
   background-color: blueviolet;
 }
+<<<<<<< HEAD
 .ft-logo a {
   line-height: 100px;
 }
 .ft-logo a img {
+=======
+.ft-logo a{
+  line-height: 100px;
+}
+.ft-logo a img{
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   width: 100%;
   filter: grayscale(1);
 }
 /* ft-copy */
+<<<<<<< HEAD
 .ft-copy {
+=======
+.ft-copy{
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   width: 900px;
   height: 100%;
   background-color: forestgreen;
 }
+<<<<<<< HEAD
 .bottom_menu {
+=======
+.bottom_menu{
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   width: 60%;
   line-height: 50px;
   display: flex;
@@ -296,6 +378,7 @@ li {
   padding: 10px 0;
   background-color: bisque;
 }
+<<<<<<< HEAD
 .bottom_menu li {
   width: calc(100% / 3);
   position: relative;
@@ -315,8 +398,21 @@ li {
   border: none;
 }
 .ft-copy p {
+=======
+.bottom_menu li{
+  width: calc(100%/3);
+  line-height: 30px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+.ft-copy p{
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
   width: 100%;
   line-height: 50px;
   text-align: center;
   background-color: aquamarine;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> dc409a1c17cb5fe71f420e23366580462907807b
